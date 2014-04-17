@@ -1,0 +1,6 @@
+[base]
+name=ops-master
+baseurl={{local_yum_server}}
+gpgcheck=0
+enabled=1
+

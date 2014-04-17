@@ -1,4 +1,4 @@
-service-running:
+es-service-running:
   service:
     - running
     - name: elasticsearch

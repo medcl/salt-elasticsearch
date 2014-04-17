@@ -29,7 +29,7 @@
 # Cluster name identifies your cluster for auto-discovery. If you're running
 # multiple clusters on the same network, make sure you're using unique names.
 #
-# cluster.name: elasticsearch
+cluster.name: {{CLUSTER_NAME}}
 
 
 #################################### Node #####################################
@@ -144,7 +144,7 @@
 
 # Path to directory where to store index data allocated for this node.
 #
-# path.data: /path/to/data
+path.data: {{PATH_DATA}}
 #
 # Can optionally include more than one location, causing data to be striped across
 # the locations (a la RAID 0) on a file level, favouring locations with most free
@@ -158,7 +158,7 @@
 
 # Path to log files:
 #
-# path.logs: /path/to/logs
+path.logs: {{PATH_LOGS}}
 
 # Path to where plugins are installed:
 #
@@ -179,7 +179,7 @@
 #
 # Set this property to true to lock the memory:
 #
-# bootstrap.mlockall: true
+bootstrap.mlockall: true
 
 # Make sure that the ES_MIN_MEM and ES_MAX_MEM environment variables are set
 # to the same value, and that the machine has enough memory to allocate

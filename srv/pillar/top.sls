@@ -1,0 +1,5 @@
+base:
+  '*':
+    - config
+    - users
+    - es
